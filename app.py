@@ -1,2 +1,5 @@
-name1, name2, name3 = "Vadim,", "Masha", "and thre name..."
-print(name1, name2, name3)
+first_animal = "Заяц"
+second_animal = "Черепаха"
+sleep = input("Что делает заяц? ")
+run = input("Что делает черепаха? ")
+print(first_animal, sleep, second_animal, run)
