@@ -1,3 +1,5 @@
-city_run = input("Укажите город вылета: ")
-city_seccond = input("Укажите город прилёта: ")
-print(city_run, "-", city_seccond)
+a = input('Введите первое слово: ')
+b = input('Введите второе слово: ')
+print(a, b)
+a, b = b, a
+print(a, b)
