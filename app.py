@@ -1,3 +1,6 @@
-house_appart = int(input("Введите код дома: "))
-print("Номер дома: ", house_appart % 10)
-print("Номер квартиры: ", house_appart // 10)
+import task1
+import task2
+import task3
+import task4
+import task5
+import task6
