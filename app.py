@@ -1,4 +1,3 @@
-apple = 41
-all_box = 3
-print("Кол-во полных ящиков: ", 41 // 3)
-print("Остаток яблок в тоннах: ", 41 % 3)
+house_appart = int(input("Введите код дома: "))
+print("Номер дома: ", house_appart % 10)
+print("Номер квартиры: ", house_appart // 10)
