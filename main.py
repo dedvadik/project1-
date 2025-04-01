@@ -1,7 +1,11 @@
-x = int(input("Введите число: "))
-q = 0
-if x >= 0:
-    print("Vveli", x, ", Otvet", x)
+coub_first = int(input("Кубик Кости: "))
+coub_seccond = int(input("Кубик владельца: "))
+
+if coub_first >= coub_seccond:
+    print("Разница", coub_first - coub_seccond)
+    print("Владелец платит!")
 else:
-    q = x + (-x * 2)
-    print("Vveli", x, ", Otvet", q)
+    print("Сумма:", coub_first + coub_seccond)
+    print("Игрок платит!")
+
+print("Игра окончена")
