@@ -1,13 +1,6 @@
-print("Угадай какое число я задумал, от 1 до 10.")
+raining = input("На улице идёт дождь: ")
 
-fathers_number = 4
-son_number = int(input("Введи число: "))
-
-if son_number == fathers_number:
-    print("Угадал!!!")
-else:
-    print("Не угадал, иди делать уроки!")
-#if son_number != fathers_number:
-#    print("Не угадал, иди делать уроки!")
-
-print("Конец игры!")
+if raining == "нет":
+    print("На улице дождя нету!")
+if raining == "да":
+    print("На улице дождь! Возьмите зонтик!")
