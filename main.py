@@ -1,8 +1,10 @@
-a = 6
-b = 2
-c = 0
+your_wallet = int(input("Введите ваш баланс: "))
+course_price = 75000
 
-if b < a:
-    c = a * b
+if your_wallet >= course_price:
+    print("Курс успешно приобретён!")
 
-print(c)
+else:
+    print("К сожалению у вас не достаточно денег.")
+
+print("Хорошего дня!")
