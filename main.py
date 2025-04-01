@@ -1,11 +1,8 @@
-coub_first = int(input("Кубик Кости: "))
-coub_seccond = int(input("Кубик владельца: "))
+hours =int(input("Введите отработанные часы: ")) 
+credit = int(input("Введите остаток по кредиту: "))
+foods = int(input("Введите траты на еду: "))
 
-if coub_first >= coub_seccond:
-    print("Разница", coub_first - coub_seccond)
-    print("Владелец платит!")
+if ((200 * hours) / (2 ** 3)) + hours < credit + foods:
+    print("Часов не хватает. Придётся работать больше!")
 else:
-    print("Сумма:", coub_first + coub_seccond)
-    print("Игрок платит!")
-
-print("Игра окончена")
+    print("Часов хватает. Можно отдохнуть")
