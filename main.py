@@ -1,8 +1,6 @@
-russion_leng = int(input("Введите кол-во баллов по русскому языку: "))
-math = int(input("Введите кол-во балов по математике: "))
-information = int(input("Введите кол-во балов по информатике: "))
+number = int(input("Ввидите день: "))
 
-if russion_leng + math + information >= 270:
-    print("Поздравляю, ты поступил на бюдет!")
+if number % 2:
+    print("Тебе не надо на бработу")
 else:
-    print("к сожалению, ты не прошёл на бюдет.")
+    print("Вставай и иди на работу")
