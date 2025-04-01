@@ -1,10 +1,13 @@
-your_wallet = int(input("Введите ваш баланс: "))
-course_price = 75000
+print("Угадай какое число я задумал, от 1 до 10.")
 
-if your_wallet >= course_price:
-    print("Курс успешно приобретён!")
+fathers_number = 4
+son_number = int(input("Введи число: "))
 
+if son_number == fathers_number:
+    print("Угадал!!!")
 else:
-    print("К сожалению у вас не достаточно денег.")
+    print("Не угадал, иди делать уроки!")
+#if son_number != fathers_number:
+#    print("Не угадал, иди делать уроки!")
 
-print("Хорошего дня!")
+print("Конец игры!")
