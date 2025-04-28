@@ -1,4 +1,4 @@
-one_number = int(input("Заданное число: "))
+one_number = int(input("Загаданное число: "))
 count = 0
 
 while True:
