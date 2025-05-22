@@ -1,4 +1,5 @@
 lowGrade = 0
+
 for student in range(5):
     answer = input('Кто написал произведение Евнегий Онегин? ')
     if (answer == 'Пушкин') or (answer == 'пушкин'):

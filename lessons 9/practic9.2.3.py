@@ -2,6 +2,7 @@ answerAll = ''
 count = 0
 name = input('Как тебя зовут? ')
 answer = input(f'{name}, Купи слона! ')
+
 while True:
     if answer == 'нет':
         print(f'Ладно {name}, тогда не тревожу.')
