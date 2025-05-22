@@ -6,7 +6,7 @@ while True:
     if answer == 'нет':
         print(f'Ладно {name}, тогда не тревожу.')
         break
-    elif count >= 1:
+    elif count > 0:
         answerAll += ', '
         answerAll += answer
         count += 1
