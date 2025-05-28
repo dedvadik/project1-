@@ -9,10 +9,8 @@ if length == width:
 else:
     print(f'\nВы находитесь в центре прямоугольника площадью {length * width}\nВаша позиция [{length//2}:{width//2}]\n{text}')
 
-while True:
-    if width == 0 or length == 0 or width == map_width + 1 or length == map_length + 1:
-        print(f'Вы потеряли сигнал в точке около [{length}:{width}]!')
-        break    
+while (width > 0) or (length > 0) or (width == map_width + 1) or (length == map_length + 1):
+  
     command = input("Введите команду: ")
     if command == "W":
         width -= 1
@@ -25,3 +23,4 @@ while True:
     else:
         print(text)
     print(f'Марсоход днаходится на позиции [{length}:{width}]')
+print(f'Вы потеряли сигнал в точке около [{length}:{width}]!')
