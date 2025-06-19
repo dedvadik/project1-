@@ -8,4 +8,7 @@ if x < 0 or y < 0:
     print('Клетки с такой координатой не существвует')
 else:
     print(f'Фигура находиться в клетке ({xSquere}, {ySquere})')
-    
+    if xSquere and ySquere % 0.05:
+        xCrat = x  
+        yCrat = y 
+        print(f'Поправьте положение фигуры на ({xCrat}, {yCrat})')
